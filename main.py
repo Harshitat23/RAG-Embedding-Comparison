@@ -14,7 +14,6 @@ from bert_score import BERTScorer
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 
-# Suppress warnings
 os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
 load_dotenv()
 

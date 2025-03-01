@@ -5,14 +5,18 @@ This project evaluates different embedding models (Cohere and Voyage AI) in a Re
 Custom Secure Embedding Implementations:
 
 **-> Voyage AI Embeddings (via voyageai.Client)**
+
+
 **-> Cohere Embeddings (via cohere.Client)**
 Vector Database for Retrieval: Uses FAISS for fast and efficient similarity search.
 GPT-4 for Answer Generation: Generates answers based on retrieved financial context.
 Quantitative Evaluation Metrics:
 
+
 -> Exact Match Score: Checks if the generated response matches the reference answer.
 -> BERT Score: Evaluates semantic similarity of generated responses.
 -> Retrieval Precision: Measures how accurately retrieved documents contain relevant information.
+
 
 ## 🛠️ Setup & Installation
 

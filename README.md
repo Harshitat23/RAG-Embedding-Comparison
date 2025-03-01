@@ -30,5 +30,7 @@ Execute the script to compare Cohere and Voyage AI embeddings -
 python main.py
 
 
+
+
 **Name: Harshita
 Email: harshitat010@gmail.com**
